@@ -1,0 +1,9 @@
+name: mykrobe-nf
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3
+  - mykrobe=0.10.0
+  - pymongo=3.*
